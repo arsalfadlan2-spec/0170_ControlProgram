@@ -9,7 +9,7 @@ int main(){
     srand(time(0));
     x = rand() % 10;
 
-    if (x==10){
+    if (x==0){
         x = x+9;
         cout<<"nilai x sudah dikoreksi menjadi : "<<x<<endl;
     }
